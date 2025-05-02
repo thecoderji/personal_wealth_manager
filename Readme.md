@@ -15,24 +15,31 @@ The app features an attractive welcome animation, intuitive navigation, and data
 Follow these steps to run the app locally:
 
 ### Clone the repository:
+```
 git clone https://github.com/thecoderji/personal_wealth_manager.git
 cd personal_wealth_manager
+```
 
 
 ### Set up a virtual environment:
+```
 python -m venv .venv
 .venv\Scripts\activate  # On macOS/Linux: source .venv/bin/activate
+```
 
 
 ### Install dependencies
-Install the required packages one by one:
+```Install the required packages one by one:
 pip install streamlit
 pip install pandas
 pip install flask
+```
 
 
 ### Run the app:
+```
 streamlit run app.py
+```
 
 
 ### Open in browser:
@@ -95,9 +102,11 @@ personal_wealth_manager/
 
 ## 📋 Requirements
 
+```
 Python: 3.12.3 or higher
 Dependencies: Streamlit, Pandas, Flask
 Virtual Environment: Recommended for dependency isolation
+```
 
 
 ## 📜 License
