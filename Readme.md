@@ -81,15 +81,16 @@ Screenshot: ![Screenshot 2025-05-02 224922](https://github.com/user-attachments/
 
 
 ## 📂 Project Structure
-personal_wealth_manager/
-│
-├── app.py   =>   Main Streamlit app
-├── data/   =>   Folder for CSV data files (not tracked in Git)
-│   ├── expenses.csv    =>   Stores expense data (ignored by .gitignore)
-│   ├── portfolio.csv   =>   Stores portfolio data (ignored by .gitignore)
-│   ├── salary.csv    =>   Stores monthly salary data (ignored by .gitignore)
-├── .gitignore    =>   Ignored files (e.g., .venv, CSV files)
-└── README.md    =>   Project documentation
+ ```
+personal_wealth_manager/ 
+  │ ├── app.py # Main Streamlit app script 
+  │ ├── data/ # Folder to store CSV data files (not tracked by Git)
+  │ ├── expenses.csv # Stores user's expense data (ignored by Git)
+  │ ├── portfolio.csv # Stores user's investment portfolio data (ignored by Git)
+  │ └── salary.csv # Stores user's monthly salary data (ignored by Git)
+  │ ├── .gitignore # Specifies intentionally untracked files (e.g., CSVs, virtual environment)
+  │ └── README.md # Documentation and usage instructions for the project 
+  ```
 
 
 ## 📋 Requirements
